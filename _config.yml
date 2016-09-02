@@ -8,13 +8,9 @@ owner:
   name:           Jackie
   avatar:         avatar.png
   bio:            "Aesthete & Athlete"
-  email:          ""
-  twitter:        ""
   github:         jackieleng
-  instagram:      ""
-  dribbble:       ""
   disqus:         ""
-  location:       ""
+  location:       "UT, NL"
   # Plug in your disqus shortname!
 
 tools:
@@ -35,7 +31,7 @@ links:
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/Amsterdam
 future:      true
 highlighter: pygments
 markdown:    kramdown
