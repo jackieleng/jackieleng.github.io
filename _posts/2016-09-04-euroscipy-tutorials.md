@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "EuroSciPy 2016 Tutorials"
 description: "Summaries and impressions of the tutorials."
 categories: articles
-date: 2016-09-03
+date: 2016-09-04
 ---
 
 I went to EuroSciPy last week. EuroSciPy is an annual Python conference in
