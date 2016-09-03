@@ -100,7 +100,7 @@ All of this is pretty complicated if you don't have a ML background (like me).
 Thankfully, the Keras library makes things much easier for us. [Keras][keras]
 is a minimalist library that runs on top of either Theano or Tensorflow
 (another deep learning framework similar to Theano made by Google). Keras
-was made to make it easy and fast to develop deep learning models. The same
+was made to make it easy to quickly develop deep learning models. The same
 model in Theano will generally be much smaller (fewer SLOCs) in Keras, and
 much more readable. Thus Keras makes it easier to make simple models as well
 as complex models.
