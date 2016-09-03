@@ -62,10 +62,10 @@ using it to create a "moving window" through your array.
 ### Parallel computing, MPI
 
 The first part of the tutorial was about profiling and some examples of (micro)
-optimizations in Python. `line_profiler` was a tool I hadn't heard of before,
-but using this tool you can profile your code line by line. This seems
-incredibly useful to me since I've only ever used cProfile for profiling,
-which I find to be complex to use and hard to interpret.
+optimizations in Python. [line_profiler][line_profiler] was a tool I hadn't
+heard of before, but using this tool you can profile your code line by line.
+This seems incredibly useful to me since I've only ever used cProfile for
+profiling, which I find to be complex to use and hard to interpret.
 
 The second part was about the builtin `multiprocessing` library in Python and
 the various features it provides to parallelize your code. Another way to
@@ -81,6 +81,8 @@ Other ways to pass messages are: broadcasting (send a message (array) to all
 processes), scattering (send chunks of a message (array) to different
 processes), etc.
 
+[line_profiler]: https://github.com/rkern/line_profiler
+
 ## Tutorials day two
 
 ### Keras
@@ -95,13 +97,13 @@ introduced us to Theano, which is a Python library with its own (not so
 Pythonic) syntax, which can be compiled to run on the gpu or cpu.
 
 All of this is pretty complicated if you don't have a ML background (like me).
-Thankfully, the Keras library makes things much easier for us. Keras is a
-minimalist library that runs on top of either Theano or Tensorflow (another
-deep learning framework similar to Theano made by Google). Keras was made to
-make it easy and fast to develop deep learning models. The same model in
-Theano will generally be much smaller (fewer SLOCs) in Keras, and much more
-readable. Thus Keras makes it easier to make simple models as well as complex
-models.
+Thankfully, the Keras library makes things much easier for us. [Keras][keras]
+is a minimalist library that runs on top of either Theano or Tensorflow
+(another deep learning framework similar to Theano made by Google). Keras
+was made to make it easy and fast to develop deep learning models. The same
+model in Theano will generally be much smaller (fewer SLOCs) in Keras, and
+much more readable. Thus Keras makes it easier to make simple models as well
+as complex models.
 
 The second part of the tutorial was about image recognization using
 convolutional neural networks (CNNs), which is basically about using filters
@@ -116,19 +118,26 @@ perform pretty well in this session, we still don't now exactly *why* they
 perform so well, as there are still no universal rules on how to create a good
 model.
 
+By the way, this is the IPython notebook used in the tutorial:
+https://github.com/leriomaggio/deep-learning-keras-euroscipy2016
+
+[keras]: https://keras.io/
+
 ### NetworkX
 
 Graphs are basically a collection of nodes and edges. They can be directed
 or undirected. Many things can be modeled using graphs. Common examples are
 roads, relationships between people, website ranking (Google PageRank).
 
-NetworkX is an open source Python library used to create and analyze graphs.
-You can use it compute all kinds of interesting properties, such as shortest
-path, number of connections, neighbours, subgraphs. It looks like an
-interesting package if you do a lot of that kind of analysis. At my job we
-work with numerical flow models which in our case are also graph like things
-because they're basically nodes connected by edges, so this might be
-interesting for that.
+[NetworkX][networkx] is an open source Python library used to create and
+analyze graphs. You can use it compute all kinds of interesting properties,
+such as shortest path, number of connections, neighbours, subgraphs. It looks
+like an interesting package if you do a lot of that kind of analysis. At my
+job we work with numerical flow models which in our case are also graph like
+things because they're basically nodes connected by edges, so that might be
+an interesting use case for it.
+
+[networkx]: https://networkx.github.io/
 
 ### Advanced pandas
 
