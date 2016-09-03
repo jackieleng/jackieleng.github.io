@@ -17,7 +17,8 @@ day. So it's a pretty busy program!
 The tutorials consisted of two tracks: an advanced and a beginners track.
 I followed the advanced track. During the tutorials you had to download
 the accompanying IPython notebook so that you could try the exercises yourself
-on your laptop.
+on your laptop. The full program can be found
+[here](https://www.euroscipy.org/2016/program/).
 
 ## Tutorials day one
 
