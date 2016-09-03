@@ -1,6 +1,6 @@
 ---
 layout: post-no-feature
-title: "EuroSciPy 2016 Part I: Tutorials"
+title: "EuroSciPy 2016 Tutorials"
 description: "Summaries and impressions of the tutorials."
 categories: articles
 date: 2016-09-03
@@ -52,7 +52,7 @@ want some labels in your arrays. Then we learned more about the concept of
 and determine for example the shape of the array. If you want to hack in
 Numpy they can also be interesting (and dangerous!).
 
-One example is using the `numpy.lib.stride_tricks.as_strided`. With this
+One example is using `numpy.lib.stride_tricks.as_strided`. With this
 function you can directly manipulate the strides of an array without copying
 data, i.e., it returns a *view* of your array. However it does not check
 memory block bounds, so it's possible to read/write outside of the allocated
