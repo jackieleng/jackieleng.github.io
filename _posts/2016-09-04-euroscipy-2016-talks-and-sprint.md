@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "EuroSciPy 2016 Talks and Sprint"
 description: "Second post about EuroSciPy 2016 with summaries of the talks and sprint."
 categories: articles
-date: 2016-09-04
+date: 2016-09-04 18:09
 ---
 
 Continuation of my posts about EuroSciPy 2016. First part can be found

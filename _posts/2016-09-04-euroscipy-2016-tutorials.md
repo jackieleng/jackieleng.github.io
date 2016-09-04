@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "EuroSciPy 2016 Tutorials"
 description: "This post will be basically be my thoughts on the the first two days of EuroSciPy, plus a bunch of summaries of the tutorials in those two days."
 categories: articles
-date: 2016-09-04
+date: 2016-09-04 01:00
 ---
 
 I went to EuroSciPy last week. EuroSciPy is an annual Python conference in
