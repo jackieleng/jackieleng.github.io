@@ -1,7 +1,7 @@
 ---
 layout: post-no-feature
 title: "EuroSciPy 2016 Tutorials"
-description: "This post will be basically be my thoughts and impressions of the the first two days of EuroSciPy, plus a bunch of summaries of all the tutorials in those two days."
+description: "This post will be basically be my thoughts on the the first two days of EuroSciPy, plus a bunch of summaries of the tutorials in those two days."
 categories: articles
 date: 2016-09-04
 ---
