@@ -7,9 +7,7 @@ date: 2016-09-04 18:09
 ---
 
 Continuation of my posts about EuroSciPy 2016. First part can be found
-[here][euroscipy_p1].
-
-[euroscipy_p1]({% post_url 2016-09-04-euroscipy-2016-tutorials %})
+[here]({% post_url 2016-09-04-euroscipy-2016-tutorials %}).
 
 ## Talks part I (day 3)
 
