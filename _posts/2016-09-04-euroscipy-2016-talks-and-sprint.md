@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EuroSciPy 2016 Talks and Sprint"
+title: "EuroSciPy 2016 talks and sprint"
 description: "Second post about EuroSciPy 2016 with summaries of the talks and sprint."
 categories: articles
 date: 2016-09-04 18:09

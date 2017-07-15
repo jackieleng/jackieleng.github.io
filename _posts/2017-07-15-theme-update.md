@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Theme Update"
+title: "Theme update"
 date: 2017-07-15 02:40
 categories: update
 ---

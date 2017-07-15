@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EuroSciPy 2016 Tutorials"
+title: "EuroSciPy 2016 tutorials"
 description: "This post will be basically be my thoughts on the the first two days of EuroSciPy, plus a bunch of summaries of the tutorials in those two days."
 categories: articles
 date: 2016-09-04 01:00
