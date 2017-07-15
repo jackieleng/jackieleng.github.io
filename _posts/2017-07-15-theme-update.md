@@ -1,7 +1,8 @@
 ---
--layout: post
--date:   2017-07-15 02:40
--categories: update
+layout: post
+title: "Theme Update"
+date: 2017-07-15 02:40
+categories: update
 ---
 
 Previously I've been using a theme for this blog that was a bit too fancy
