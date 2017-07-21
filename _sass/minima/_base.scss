@@ -92,25 +92,29 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $text-color;
   text-decoration: none;
 
+  -o-transition: color .2s ease-in-out;
+  -ms-transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+  -webkit-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+
   &:visited {
-    color: darken($brand-color, 15%);
+    color: darken($text-color, 15%);
   }
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    color: $brand-color;
   }
+}
 
-  .social-media-list &:hover {
-    text-decoration: none;
-
-    .username {
-      text-decoration: underline;
-    }
-  }
+/**
+ * Links in posts
+ */
+p a {
+  text-decoration: underline;
 }
 
 
