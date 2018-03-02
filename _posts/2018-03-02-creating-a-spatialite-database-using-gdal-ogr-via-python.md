@@ -95,11 +95,11 @@ ERROR 1: sqlite3_step() failed:
   cities.GEOMETRY violates Geometry constraint [geom-type or SRID not allowed] (19)
 ```
 
-I was working on Ubuntu 14.04 when doing this, which has an old GDAL version
-that unfortunately didn't give any errors or warnings. On the other computer
-a newer GDAL version was installed where you can actually see that there is a
-problem when creating the feature. However, it is *even better* to set
-`ogr.UseExceptions()`so that things don't silently fail.
+I was on Ubuntu 14.04 when originally working on this task, which has an old
+GDAL version that unfortunately didn't give any errors or warnings. On the
+other computer a newer GDAL version was installed where you can actually see
+that there is a problem when creating the feature. However, it is
+*even better* to set `ogr.UseExceptions()`so that things don't silently fail.
 
 The error message gives a hint to what the real problem was with creating our
 features: the feature geometries were not compatible with the geometry type
