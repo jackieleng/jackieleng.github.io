@@ -5,8 +5,8 @@ date: 2018-03-02 16:07
 categories: update
 ---
 
-A simple task, creating a Spatialite database using GDAL/OGR via Python, has
-seemingly been a lot more complicated than I expected it to be.
+A seemingly simple task, creating a Spatialite database using GDAL/OGR via
+Python, has been a lot more complicated than I expected it to be.
 
 After studying the Python GDAL/OGR cookbook for a bit it seemed simple enough:
 get the desired vector layer driver using OGR (for Spatialite you have to use
