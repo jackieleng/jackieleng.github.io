@@ -135,7 +135,7 @@ wkt = "POINT(%f %f)" %  (1, 2)
 point = ogr.CreateGeometryFromWkt(wkt)
 ```
 
-GDAL/OGR made it seem to me that writing to different file formats would just
+GDAL/OGR made it seem to me like writing to different file formats would just
 be matter of switching to another driver. However, it isn't always that simple
 and some drivers do have their own specific quirks you have to be aware of.
 And as I've found out some problems only happen in specific drivers but are
