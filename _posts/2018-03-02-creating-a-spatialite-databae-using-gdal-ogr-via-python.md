@@ -96,7 +96,7 @@ ERROR 1: sqlite3_step() failed:
 ```
 
 I was working on Ubuntu 14.04 when doing this, which has an old GDAL version
-that unfortunately didn't give any errors or warning. On the other computer
+that unfortunately didn't give any errors or warnings. On the other computer
 a newer GDAL version was installed where you can actually see that there is a
 problem when creating the feature. However, it is *even better* to set
 `ogr.UseExceptions()`so that things don't silently fail.
@@ -135,10 +135,10 @@ wkt = "POINT(%f %f)" %  (1, 2)
 point = ogr.CreateGeometryFromWkt(wkt)
 ```
 
-GDAL/OGR made it seem to me that writing to a different file format would just
+GDAL/OGR made it seem to me that writing to different file formats would just
 be matter of switching to another driver. However, it isn't always that simple
 and some drivers do have their own specific quirks you have to be aware of.
 And as I've found out some problems only happen in specific drivers but are
-silenty ignored or 'remedied' by other drivers. An instance of
+silenty ignored, 'remedied' or non-problems in other drivers. An instance of
 ['leaky abstractions'](https://en.wikipedia.org/wiki/Leaky_abstraction) I
 suppose.
