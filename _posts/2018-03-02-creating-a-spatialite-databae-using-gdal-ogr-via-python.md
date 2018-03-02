@@ -66,9 +66,9 @@ data_source = driver.CreateDataSource("cities.sqlite", options=['SPATIALITE=YES'
 ```
 
 GDAL/OGR does have documentation available for its Python API which is
-relatively detailed: http://gdal.org/python/osgeo.ogr.Driver-class.html#CreateDataSource
+relatively detailed: [http://gdal.org/python/osgeo.ogr.Driver-class.html#CreateDataSource](http://gdal.org/python/osgeo.ogr.Driver-class.html#CreateDataSource)
 The documentation also links to a page where you can find all the driver
-options and information: http://www.gdal.org/ogr_formats.html
+options and information: [http://www.gdal.org/ogr_formats.html](http://www.gdal.org/ogr_formats.html)
 
 However, after enabling Spatialite extension, the features were not showing up
 in QGIS anymore. The database was apparently empty.
