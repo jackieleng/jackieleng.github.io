@@ -87,7 +87,7 @@ layer = data_source.CreateLayer("cities", srs, geom_type=ogr.wkbPoint25D)
 
 and kept the feature geometries the same (`ogr.wkbPoint`).
 
-However, this seemed like a hack to me, so tried reproducing this problem again
+However, this seemed like a hack to me, so I tried reproducing the problem
 on another computer. This time Python gave me some errors:
 
 ```
