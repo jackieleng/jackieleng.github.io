@@ -53,10 +53,10 @@ feature = None
 data_source = None
 ```
 
-When used with the shapefile driver, this code works as expected.
-Unfortunately, when I tried opening the Spatialite file in QGIS I got this
-error: `Failure getting table metadata ... is this really a Spatialite database?`
-When I tried opening the file as a vector layer in QGIS it worked however.
+When used with the shapefile driver, this code worked as expected.
+Unfortunately, when I tried opening the file made with the Spatialite driver
+in QGIS I got this error: `Failure getting table metadata ... is this really a Spatialite database?`
+Opening the file as a vector layer in QGIS worked however.
 The first thing I found out was that you have to explicitly enable the Spatialite
 extension when creating the data source. Otherwise, you're still using the
 OGR data provider, but with an SQLite container. These driver specific options
